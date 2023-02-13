@@ -123,6 +123,7 @@ $ kubectl version --short --client <br/>
 	$ cd /var/lib/jenkins <br/>
 	$ sudo mkdir .kube  <br/>
 	$ sudo vi .kube/config  <br/>
+	$ kubectl config view
 
 3) check eks nodes <br/>
 	$ kubectl get nodes 
